@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `idatroan`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.idatroan.no`
   },
   plugins: [{
     resolve: 'gatsby-source-sanity',
@@ -9,5 +9,6 @@ module.exports = {
       "projectId": "zrnl608k",
       "dataset": "production"
     }
-  }]
+  },
+  'gatsby-plugin-image']
 };
