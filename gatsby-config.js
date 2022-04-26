@@ -10,5 +10,8 @@ module.exports = {
       "dataset": "production"
     }
   },
-  'gatsby-plugin-image']
+  'gatsby-plugin-image',
+  'gatsby-plugin-netlify'
+
+]
 };
