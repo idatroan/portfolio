@@ -1,6 +1,6 @@
 import * as React from "react"
 import { useProjectData } from '../hooks/useProjectData';
-import Layout from '../components/Layout/layout';
+import Layout from '../components/Layout/Layout';
 
 // markup
 const HomePage = () => {
