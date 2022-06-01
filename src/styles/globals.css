@@ -100,6 +100,20 @@ h4 {
     /* max-width: 1200px; */
 }
 
+.projectGrid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.projectInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    font-size: 2em;
+}
+
 .grid {
     display: grid;
     gap: 2rem;
