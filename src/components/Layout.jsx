@@ -1,20 +1,23 @@
 import * as React from 'react';
-import { Link } from 'gatsby';
+import Head from './Head';
+import Navigation from './Navigation';
+import Header from './Header';
+
+import '../styles/globals.css';
+import Footer from './Footer';
+import Container from './Container';
 
 const Layout = ({ pageTitle, children }) => {
+
     return (
         <>
-            <title>{pageTitle}</title>
-            <nav>
-                <ul>
-                    <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/about'>About</Link></li>
-                </ul>
-            </nav>
-            <main>
-                <h1>{pageTitle}</h1>
-                {children}
-            </main>
+            <Head pageTitle={pageTitle} />
+                <Navigation />
+                <Header />
+                <Container>
+                    {children}
+                </Container>
+                <Footer />
         </>
     )
 }

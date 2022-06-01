@@ -5,6 +5,7 @@ export const useProjectData = () => {
         query {
             allSanityProject {
               nodes {
+                id
                 name
                 description
               }
@@ -12,6 +13,6 @@ export const useProjectData = () => {
           }
         `
     )
-    console.log(project.allSanityProject.nodes[0]);
-    return project.allSanityProject.nodes[0];
+    // console.log(project.allSanityProject.nodes);
+    return project.allSanityProject.nodes;
 }
